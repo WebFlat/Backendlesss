@@ -1,7 +1,5 @@
 @import 'normalize';
 @import 'mixins';
-@import 'slick';
-@import 'slick-theme';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 
@@ -92,6 +90,7 @@ body {
 	transition: opacity .1s ease-in-out;
 	&__img-wrap {
 		width: 60%;
+		max-height: 50%;
 		height: auto;
 		object-fit: cover;
 		position: relative;
