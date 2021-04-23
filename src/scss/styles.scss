@@ -113,6 +113,11 @@ body {
 		&__img-wrap {
 			width: 90%;
 		}
+		&__img {
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
 	}
 }
 
@@ -197,10 +202,10 @@ body {
 
 .gallery {
 	&__wrap {
-		object-fit: cover;
 		overflow: hidden;
 		background: var(--primary-color);
-		img {
+		.img {
+			object-fit: cover;
 			width: 100%;
 			height: 100%;
 		}
@@ -214,7 +219,6 @@ body {
 	&__three {
 		display: grid;
 		height: auto;
-		// max-height: 600px;
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: repeat(3, 200px);
 		grid-column-gap: 10px;
