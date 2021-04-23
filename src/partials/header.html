@@ -1,0 +1,29 @@
+<header class="header">
+    <div class="wrapper">
+        <div class="header__wrap">
+            <a href="http://www.backendless.com" class="header__link">Backendless</a>
+            <form class="desktop">
+                <fieldset>
+                    <input type="radio" name="theme" id="light" class="header__check light-theme" checked>
+                    <label for="light" class="header__label">Light Theme</label>
+                    <input type="radio" name="theme" id="dark" class="header__check dark-theme">
+                    <label for="dark" class="header__label">Dark Theme</label>
+                    <input type="radio" name="theme" id="gray" class="header__check gray-theme">
+                    <label for="gray" class="header__label">Gray Theme</label>
+                </fieldset>
+            </form>
+            <div class="tablet">
+                <button class="header__btn light-theme active">Light Theme</button>
+                <button class="header__btn dark-theme">Dark Theme</button>
+                <button class="header__btn gray-theme">Gray Theme</button>
+            </div>
+            <div class="mobile">
+                <select name="theme" class="header__list">
+                    <option value="light" class="header__check light-theme" selected>Light Theme</option>
+                    <option value="dark" class="header__check dark-theme">Dark Theme</option>
+                    <option value="gray" class="header__check gray-theme">Gray Theme</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</header>
