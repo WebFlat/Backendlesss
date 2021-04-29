@@ -1,9 +1,9 @@
 var r = document.querySelector(':root');
 
 //стили тем
-var lightTheme = '--default-color: #000;--primary-color: #000;--header-footer-color: #b0bec5;--logo-color: #000;--bg-color: #e2f1f8;--box-shadow: rgba(0,0,0, .5);--border-color: #ccc;--btn-color: #fff';
-var darkTheme = '--default-color: #fff;--primary-color: #000;--header-footer-color: #212121;--logo-color: #ccc;--bg-color: #484848;--box-shadow: rgba(255,255,255, .5);--border-color: #000;--btn-color: #fff;';
-var grayTheme = '--default-color: #fff;--primary-color: #000;--header-footer-color: #757575;--logo-color: #ccc;--bg-color: #a4a4a4;';
+var lightTheme = '--default-color: #000;--primary-color: #000;--header-footer-color: #b0bec5;--logo-color: #000;--bg-color: #e2f1f8;--box-shadow: rgba(0,0,0, .5);--border-color: #ccc;--btn-color: #fff;--hover: #fff;';
+var darkTheme = '--default-color: #fff;--primary-color: #000;--header-footer-color: #212121;--logo-color: #ccc;--bg-color: #484848;--box-shadow: rgba(255,255,255, .5);--border-color: #000;--btn-color: #fff;--hover: #ccc;';
+var grayTheme = '--default-color: #fff;--primary-color: #000;--header-footer-color: #757575;--logo-color: #ccc;--bg-color: #a4a4a4;--hover: #ccc;';
 
 //смена темы
 function changeTheme(el, val) {
